@@ -1,0 +1,68 @@
+@charset "utf-8";
+/*
+    Portfolio home page CSS
+    Author: Brandon Santizo
+*/
+article > ul{
+    text-align: center;
+}
+
+div.row{
+    outline: 2.5px solid black;
+}
+html{
+    background-color: #485461;
+    background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
+    height: 100%;
+}
+body{
+    background-color: #4d5dfb;
+    background-image: linear-gradient(315deg, #4d5dfb 0%, #08c8f6 74%);
+    color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+article{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+a{
+    padding: 8px;
+    font-size: 30px;
+}
+nav.horizontal{
+    text-decoration: none;
+    text-align: center;
+}
+
+nav.horizontal a:visited, nav a:link{
+    color:whitesmoke;
+    text-decoration: none;
+}
+nav.horizontal a:hover, nav a:active{
+    text-decoration: none;
+    color: black;
+}
+nav.horizontal ul{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    font-size: 38px;
+}
+p{
+    font-size: 25px;
+    margin-left: 30%;
+    margin-right: 30%;
+   
+}
+ footer{
+    font-size: 25px;
+ }
+
